@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.heading{
+    height: 200px;
+    width: 100%;
+}
+
+
+.heading-top{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.top-heading{  
+    height: 50px;
+    width: 100%;
+    overflow: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    
+}
+
+.top-heading a{
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    transition: 0.5s ease-out;
+}
+
+.top-heading a:hover{
+    background-color:gray;
+}
+
+
+.bottom-heading{
+    height: 150px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: 400px;
+    letter-spacing: 10px;
+
+}
+
+/* .bottom-heading a{
+    list-style-type: none;
+} */
+
+.bottom-heading h1{
+    color: black;
+}
+
+.main-container{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+   
+}
+
+.container{
+    height: 500px;
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container-one{
+    background-image: url(./uflepqwywvqnacygluzl.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    height: 500px;
+    width: 325px;
+}
+
+.container-two{
+    background-image: url(./tbou9unuonz46ayhjjog.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    height: 500px;
+    width: 325px;
+}
+
+.container-three{
+    background-image: url(./mp4uczfw7nxo1hh8d6wj.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    height: 500px;
+    width: 325px;
+}
+
+.ending{
+    height: 200px;
+    width: 100%;
+   background-color: black;
+}
+
+.ending-part{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  
+}
+
+.ending-part ul{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    list-style-type: none;
+}
+   
+
+.part-one{
+    height: 100px;
+    width: 20%;
+    color: white;
+}
+
+
+.part-two{
+    height: 100px;
+    width: 20%;
+    color: white;
+}
